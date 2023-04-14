@@ -1,0 +1,20 @@
+POST http://localhost:8000/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Nestor",
+    "lastName": "Mosquera",
+    "email": "yunsde26@gmail.com",
+    "phone": "3226589914",
+    "password": "contra123"
+}
+
+###
+
+POST http://localhost:8000/api/v1/users-signin HTTP/1.1
+content-type: application/json
+
+{
+    "phone": "3226589914",
+    "password": "contra123"
+}

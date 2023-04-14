@@ -1,0 +1,14 @@
+HTTP/1.1 200
+status: 200
+Date: Fri, 02 Aug 2022 09:06:13 GMT
+Content-Type: text/plain
+Transfer-Encoding: chunked
+Connection: keep-alive
+access-control-allow-origin: *
+Vary: Accept-Encoding
+
+{
+    "orderId": "17",
+    "orderDate": "12.12.2022",
+    "items": ["id":"6", "id":"56"]
+}

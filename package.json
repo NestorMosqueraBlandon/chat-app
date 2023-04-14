@@ -1,0 +1,39 @@
+{
+  "name": "aprilive-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "Nestor Mosquera",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/multer": "^1.4.7",
+    "@types/node": "^18.11.13",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.2.0",
+    "@fastify/multipart": "^7.3.0",
+    "@fastify/swagger": "^8.2.1",
+    "bcrypt": "^5.1.0",
+    "class-validator": "^0.14.0",
+    "cloudinary": "^1.32.0",
+    "cloudinary-core": "^2.13.0",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.10.2",
+    "fastify-multer": "^2.0.3",
+    "http-status": "^1.5.3",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.2",
+    "multer": "1.4.5-lts.1",
+    "multer-storage-cloudinary": "^4.0.0",
+    "mysql2": "^2.3.3",
+    "typeorm": "^0.3.11",
+    "uuid": "^9.0.0"
+  }
+}
